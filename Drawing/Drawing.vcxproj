@@ -150,6 +150,7 @@
     <ClCompile Include="main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Shape.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DrawingUI.h" />
@@ -165,6 +166,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <None Include="shape.bin" />
     <None Include="shapes.bin" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
